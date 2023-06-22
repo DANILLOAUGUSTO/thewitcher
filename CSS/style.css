@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    background-image:url(../assets/fundo.png)
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 20vh;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40vw;
+}
+
+.projetovermelho {
+    color: white;
+    font-size: 25px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 44vw;
+    align-items: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: large;
+    border: 2px;
+}
+
+.containerbruxo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.bruxo {
+    background:transparent;
+    height: 80vh;
+}
+
+.texto{
+    background:transparent;
+    position: absolute;
+}
+
+.containerbotao {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 100vw;
+}
+
+.botao {
+    background:transparent;
+    position: absolute;
+    align-items: end;
+}
